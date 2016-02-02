@@ -19,7 +19,7 @@ build:
     - ls -al
   cache: true
 
-integrations:
-  hub:
-    - integrationName: ship-docker
-      type: docker
+#integrations:
+#  hub:
+ #   - integrationName: ship-docker
+  #    type: docker
