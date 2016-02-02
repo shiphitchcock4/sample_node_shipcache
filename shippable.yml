@@ -28,8 +28,8 @@ build:
     - ls -al
 
   post_ci:
-    - docker build -t=shippabledocker/shiphitchcock1_sample_node .
-    - docker push shippabledocker/shiphitchcock1_sample_node
+    - docker build -t=shippabledocker/shiphitchcock1_sample_node:2feb2016 .
+    - docker push shippabledocker/shiphitchcock1_sample_node:2feb2016
     
   cache: true
 
